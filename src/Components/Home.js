@@ -18,7 +18,7 @@ export default function Home() {
             <span> Ali Al Shammaa</span>
           </h1>
           <div id="homeDown" className="bounce">
-            <a href="./">
+            <a href="#home">
               <i class="fa fa-chevron-down"></i>
             </a>
           </div>

@@ -5,7 +5,7 @@ import Header from "./Components/Header.js";
 import Social from "./Components/Social.js";
 import Message from "./Components/Message.js";
 import Footer from "./Components/Footer.js";
-import { HashRouter as Router, Switch, Route } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 const gsap = window.gsap;
 const tl = gsap.timeline({ defaults: { ease: "power1.out" } });
@@ -67,7 +67,7 @@ function App() {
       {preloader}
       <div>
         <section className="section">
-          <Router basename="/">
+          <Router basename={process.env.PUBLIC_URL}>
             <Header />
             <Switch>
               <Route path="/" exact component={Home} />
