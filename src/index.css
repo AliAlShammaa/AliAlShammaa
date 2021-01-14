@@ -20,6 +20,10 @@ code {
   transform: translateY(20%);
 }
 
+#toggle-button {
+  animation: colorshift 15s linear infinite;
+}
+
 /* color: rgb(36, 114, 101); */
 
 .sticky-top + #rule1 {
@@ -332,6 +336,27 @@ a[data-tool-tip]:hover::after {
   }
   50% {
     -webkit-transform: translateY(185%) translateX(14%);
+  }
+}
+
+@keyframes colorshift {
+  0%,
+  100% {
+    /* background-image: linear-gradient(
+      to right,
+      rgb(155, 2, 2, 0.8),
+      rgba(10, 4, 4, 0.8)
+    ); */
+
+    background: rgba(255, 255, 255, 0.9);
+  }
+  50% {
+    background: rgba(255, 255, 255, 0.1);
+    /* background-image: linear-gradient(
+      to right,
+      rgb(155, 2, 2, 0.1),
+      rgba(10, 4, 4, 0.1)
+    ); */
   }
 }
 

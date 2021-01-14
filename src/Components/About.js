@@ -16,7 +16,7 @@ export default function About() {
             </p>
             <br />
             <p>
-              I recently finnished my 1A term with 93% Cumulative Avg and 94%
+              I recently finished my 1A term with 93% Cumulative Avg and 94%
               Math Avg. I look forward to learning more CS and Math at UW.
             </p>
             <br />
@@ -30,8 +30,8 @@ export default function About() {
                 {" "}
                 EcoPoints.{" "}
               </a>{" "}
-              I also developed social media platform bots for a Markham gaming
-              studio called GamePill.
+              I also developed social media platform bots for a gaming studio
+              called GamePill.
             </p>
             <br />
             <p>

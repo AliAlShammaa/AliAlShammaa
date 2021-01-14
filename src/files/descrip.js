@@ -7,7 +7,7 @@ const descrip = {
   AA: {
     title: "This website 😉",
     txt:
-      "Built with the latest WebDev technologies. It uses React JS, BS, Fontawsome, Firebase and ExpressJS",
+      "Built with the latest WebDev technologies. It uses React, React-router, Bootstrap & Fontawsome",
   },
   Atlas: {
     title: "EcoPoint's Website",

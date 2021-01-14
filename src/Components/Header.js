@@ -98,6 +98,7 @@ function Header(props) {
         </div>
       </nav>
       <button
+        id="toggle-button"
         className="Navigate btn-block text-dark btn btn-light btn-outline-dark btn-sm"
         data-toggle="collapse"
         data-target="#navbar"

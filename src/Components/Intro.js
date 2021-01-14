@@ -56,7 +56,7 @@ export default function Intro() {
                   <ul>
                     <li className="mb-0 mt-0"> Web development</li>
                     <li className="mb-0 mt-0"> Machine learning </li>
-                    <li> and Quantum Algorithims </li>
+                    <li> Quantum Algorithims </li>
                   </ul>
                 </p>
               </div>
