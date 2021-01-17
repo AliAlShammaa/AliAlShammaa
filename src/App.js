@@ -57,7 +57,7 @@ function App() {
         setPreloader(null);
         bool = false;
       }
-    }, 2500);
+    }, 1250);
   }, []);
 
   // tl.to("#titleName", { y: "20%", duration: 1, stagger: 0.25 });
