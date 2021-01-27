@@ -3,9 +3,12 @@ import Carousel from "./Carousel";
 import "../styles/inHistory.css";
 
 export default function History() {
+  var today = new Date();
+  var dd = String(today.getDate());
+  var mm = String(today.getMonth() + 1);
   let date = null;
   let proxyUrl = "https://cors-anywhere.herokuapp.com/";
-  let targetUrl = "https://history.muffinlabs.com/date";
+  let targetUrl = `https://history.muffinlabs.com/date/${mm}/${dd}`;
   let targetUrl2 =
     "https://www.google.com/search?q=google+images&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjzoui4qfbtAhUqFFkFHTHRAG8Q_AUoAXoECBIQAw&biw=1600&bih=722";
   let storage = window.sessionStorage;
