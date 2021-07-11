@@ -13,6 +13,9 @@ export default function Home() {
   return (
     <div className="col-12 container-fluid pr-0 pl-0 ">
       <div id="bgPic">
+        {/*
+        
+        */}
         <div id="bgPic2">
           <h1 id="siteTitle" className="hide">
             <span> Ali Al Shammaa</span>
@@ -55,7 +58,6 @@ export default function Home() {
           <History />
           <hr className="home-hr" />
           <Project />
-          {/* U+1F44B */}
           <br />
           <hr className="home-hr" />
         </section>

@@ -3,23 +3,13 @@ import "../styles/Projects.css";
 import Cards from "./Cards.js";
 import descrip from "../files/descrip";
 import ChessML from "../Images/Chess.png";
+import BrainANN from "../Images/BrainANN.jpg";
+
 // const yapic = require("yandex-pictures");
 // const yandeximages = require("yandex-images");
 
 export default function Project() {
-  // let pic = yapic.getImage(
-  //   {
-  //     text: "charlesTheBald",
-  //     count: 2,
-  //   },
-  //   (err, res) => {
-  //     console.log(res);
-  //   }
-  // );
-  // console.log(pic);
-  // yandeximages.Search("Car", false, function (url) {
-  //   console.log(url);
-  // });
+
   return (
     <div className="container-fluid project">
       <div className="row ">
@@ -30,6 +20,13 @@ export default function Project() {
       </div>
       <div className="container-fluid padding">
         <div className="row">
+        
+        <Cards
+            link="./ANNandIntelligenceGuide"
+            src={BrainANN}
+            title={descrip.BrainANN.title}
+            txt={descrip.BrainANN.txt}
+          />
           <Cards
             link="https://github.com/AliAlShammaa/ChessML"
             src={ChessML}
@@ -48,6 +45,7 @@ export default function Project() {
             title={descrip.Atlas.title}
             txt={descrip.Atlas.txt}
           />
+          
         </div>
       </div>
     </div>

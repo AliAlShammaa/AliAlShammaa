@@ -1,4 +1,10 @@
 const descrip = {
+  BrainANN: {
+    title: "ANNs and Intelligence Guide",
+    txt:
+      "This compromises all my notes on Deep learning and Neural Nets with focus on the underlying Math \
+         and Intuition behind learning",
+  },
   Chess: {
     title: "ChessML",
     txt:

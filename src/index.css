@@ -74,8 +74,12 @@ code {
   font-family: "Redressed", cursive;
   opacity: 1;
   font-size: 6rem;
-  z-index: 99;
+  z-index: 0;
   color: white;
+}
+
+#siteTitle:hover {
+  font-family: "Lobster Two", cursive;
 }
 
 #siteTitle1 {
@@ -208,8 +212,7 @@ code {
   transform: skew(-45deg) translateX(44%); /*164 */
   /* background-image: linear-gradient(100deg, rgb(238, 89, 2, 1), #33d0ff); */
   background-image: linear-gradient(100deg, rgb(0, 0, 0), #000000);
-
-  z-index: 2;
+  z-index: 0;
 }
 
 /* IF there is an overflow from childern outside the bounds of the bgPic it hides them */

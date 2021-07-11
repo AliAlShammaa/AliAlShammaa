@@ -10,35 +10,22 @@ export default function About() {
           <div className="mt-4 ml-3">
             <p>
               I am a 1st year Computer Science student at UWaterloo in Ontario,
-              Canada. I am passionate about problem-solving and ready to take on
-              any challenge that tests my skills in computer science, math and
-              more...
+              Canada. I have a passion for Deep learning, ANNs and Intelligence. I love studying
+              the (mathematical/CS) theory of ANNs models and enjoy researching new models/ideas to implement AI.
             </p>
             <br />
             <p>
-              I recently finished my 1A term with 93% Cumulative Avg and 94%
+              I recently finished my 1st year term with 91% Cumulative Avg and 92%
               Math Avg. I look forward to learning more CS and Math at UW.
             </p>
             <br />
             <p>
-              I recently finnished an internship at Atlas365 where I worked on
-              developing the Front-end of their cryptocurrency's website called
-              <a
-                className="btn-outline-info"
-                href="https://atlas365.ca/ecopoints"
-              >
-                {" "}
-                EcoPoints.{" "}
-              </a>{" "}
-              I also developed social media platform bots for a gaming studio
-              called GamePill.
+              
             </p>
             <br />
             <p>
               In the future, I see myself researching new technologies from
-              Artificial Intelligence to Quantum Computers. In my free time, I
-              do Web development, bot automation and sometimes (hehehe not
-              always 😂) workout!!
+              Artificial Intelligence to Quantum Computers.
             </p>
             <br />
             <p></p>

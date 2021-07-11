@@ -53,7 +53,7 @@ function Header(props) {
     <div className="sticky-top m-0" id="header">
       <nav
         id="navbar"
-        className="navbar navbar-expand-md navbar-light collapse bg-light"
+        className=" navbar navbar-expand-md navbar-light collapse bg-light"
       >
         <div className="container-fluid">
           <span className="navbar-brand ml-2 ">
@@ -89,14 +89,15 @@ function Header(props) {
               </li>
 
               <li id="navbar-msg" className="nav-item" onClick={switchActive}>
-                <Link to="/MessageAli" className="nav-link">
-                  Message
+                <Link to="/ANNandIntelligenceGuide" className="nav-link">
+                  ANNs
                 </Link>
               </li>
             </ul>
           </div>
         </div>
       </nav>
+
       <button
         id="toggle-button"
         className="Navigate btn-block text-dark btn btn-light btn-outline-dark btn-sm"
@@ -106,6 +107,7 @@ function Header(props) {
       >
         <i id="toggle" className="fa fa-toggle-down"></i>
       </button>
+
       {/* <p> */}
       {/* Keep to stay under the sticky-top*/}
       {/* <br />

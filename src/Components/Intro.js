@@ -57,8 +57,8 @@ export default function Intro() {
                     I am interested in :
                     <br />
                     <ul>
-                      <li className="mb-0 mt-0"> Web development</li>
-                      <li className="mb-0 mt-0"> Machine learning </li>
+                      <li className="mb-0 mt-0"> Artificial Neural Networks</li>
+                      <li className="mb-0 mt-0"> Deep learning </li>
                       <li> Quantum Algorithims </li>
                     </ul>
                   </p>
@@ -71,7 +71,7 @@ export default function Intro() {
                   </p>
                   <p>
                     {" "}
-                    Prev worked @<a className="btn-outline-success">Atlas365</a>
+                    Curr working @<a className="btn-outline-success">Gore Mutual</a>
                   </p>
                   <p>
                     {" "}

@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 import Home from "./Components/Home.js";
 import Header from "./Components/Header.js";
 import Social from "./Components/Social.js";
-import Message from "./Components/Message.js";
+import ANN from "./Components/ANN.js";
 import Footer from "./Components/Footer.js";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
@@ -46,7 +46,7 @@ function App() {
   //     preload.classList.add("preload-finnish");
   //   });
   // }, []);'
-
+  let i = 0;
   useEffect(() => {
     tl.to("#titleName", { y: "20%", duration: 1, stagger: 0.25 });
     setTimeout(() => {
@@ -55,10 +55,9 @@ function App() {
         bool = true;
       } else {
         setPreloader(null);
-        bool = false;
       }
     }, 1250);
-  }, []);
+  }, [i]);
 
   // tl.to("#titleName", { y: "20%", duration: 1, stagger: 0.25 });
 
@@ -71,12 +70,12 @@ function App() {
             <Header />
             <Switch>
               <Route path="/" exact component={Home} />
-              <Route path="/MessageAli" exact component={Message} />
+              {i++}
+              <Route path="/ANNandIntelligenceGuide" exact component={ANN} />
             </Switch>
           </Router>
           <Social />
         </section>
-
         <Footer />
       </div>
     </div>

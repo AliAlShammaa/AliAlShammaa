@@ -28,7 +28,7 @@ export default function History() {
 
   useEffect(() => {
     fetchEvents();
-  }, [i]);
+  }, []);
 
   let [events, setEvents] = useState([]);
   // let eventsArray = [];
