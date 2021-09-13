@@ -9,7 +9,6 @@ import BrainANN from "../Images/BrainANN.jpg";
 // const yandeximages = require("yandex-images");
 
 export default function Project() {
-
   return (
     <div className="container-fluid project">
       <div className="row ">
@@ -20,9 +19,8 @@ export default function Project() {
       </div>
       <div className="container-fluid padding">
         <div className="row">
-        
-        <Cards
-            link="./ANNandIntelligenceGuide"
+          <Cards
+            link="https://github.com/AliAlShammaa/NeuralNetworks"
             src={BrainANN}
             title={descrip.BrainANN.title}
             txt={descrip.BrainANN.txt}
@@ -45,7 +43,6 @@ export default function Project() {
             title={descrip.Atlas.title}
             txt={descrip.Atlas.txt}
           />
-          
         </div>
       </div>
     </div>

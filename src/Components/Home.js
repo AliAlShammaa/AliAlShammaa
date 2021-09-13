@@ -55,8 +55,6 @@ export default function Home() {
           <hr id="rule1" className="home-hr" />
           <About />
           <hr className="home-hr" />
-          <History />
-          <hr className="home-hr" />
           <Project />
           <br />
           <hr className="home-hr" />

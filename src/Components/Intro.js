@@ -52,14 +52,14 @@ export default function Intro() {
               <div className="row">
                 <br />
                 <div className="col-md-6 col-12">
-                  <p> I love programming!!</p>
+                  <p> I love Deep learning!!</p>
                   <p>
                     I am interested in :
                     <br />
                     <ul>
-                      <li className="mb-0 mt-0"> Artificial Neural Networks</li>
-                      <li className="mb-0 mt-0"> Deep learning </li>
-                      <li> Quantum Algorithims </li>
+                      <li className="mb-0 mt-0"> Deep Neural Networks</li>
+                      <li className="mb-0 mt-0"> Computer Intelligence</li>
+                      <li> Machine learning</li>
                     </ul>
                   </p>
                 </div>
@@ -71,7 +71,8 @@ export default function Intro() {
                   </p>
                   <p>
                     {" "}
-                    Curr working @<a className="btn-outline-success">Gore Mutual</a>
+                    Prev worked @
+                    <a className="btn-outline-success">Gore Mutual</a>
                   </p>
                   <p>
                     {" "}
