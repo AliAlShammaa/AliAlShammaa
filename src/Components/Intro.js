@@ -71,12 +71,13 @@ export default function Intro() {
                   </p>
                   <p>
                     {" "}
-                    Prev worked @
-                    <a className="btn-outline-success">Gore Mutual</a>
+                    Researching @
+                    <a className="btn-outline-info">InHolland - Delft NL</a>
                   </p>
                   <p>
                     {" "}
-                    Interned @<a className="btn-outline-info">Litrans Lab</a>
+                    Prev worked @
+                    <a className="btn-outline-success">Gore Mutual</a>
                   </p>
                 </div>
               </div>
