@@ -72,7 +72,7 @@ export default function Intro() {
                   <p>
                     {" "}
                     Researching @
-                    <a className="btn-outline-info">InHolland - Delft, NL</a>
+                    <a className="btn-outline-info">InHolland - Delft , NL</a>
                   </p>
                   <p>
                     {" "}
