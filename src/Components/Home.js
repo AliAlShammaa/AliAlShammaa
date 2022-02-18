@@ -22,7 +22,7 @@ export default function Home() {
           </h1>
           <div id="homeDown" className="bounce">
             <a href="#home">
-              <i class="fa fa-chevron-down"></i>
+              <i className="fa fa-chevron-down"></i>
             </a>
           </div>
           <div id="socialLinks">
@@ -32,7 +32,7 @@ export default function Home() {
               href="https://github.com/AliAlShammaa"
               target="blank"
             >
-              <i class="fa fa-github" aria-hidden="true"></i>{" "}
+              <i className="fa fa-github" aria-hidden="true"></i>{" "}
             </a>
             <a
               id="Github"
@@ -40,10 +40,10 @@ export default function Home() {
               href="https://www.linkedin.com/in/ali-al-shammaa-508a59bb/"
               target="blank"
             >
-              <i class="fa fa-linkedin" aria-hidden="true"></i>{" "}
+              <i className="fa fa-linkedin" aria-hidden="true"></i>{" "}
             </a>
             <a id="Resume" className="ml-2" href={Resume} target="blank">
-              <i class="fa fa-file-pdf-o" aria-hidden="true"></i>{" "}
+              <i className="fa fa-file-pdf-o" aria-hidden="true"></i>{" "}
             </a>
           </div>
         </div>

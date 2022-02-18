@@ -53,7 +53,7 @@ export default function Intro() {
                 <br />
                 <div className="col-md-6 col-12">
                   <p> I love Deep learning!!</p>
-                  <p>
+                  {/* <p> */}
                     I am interested in :
                     <br />
                     <ul>
@@ -61,7 +61,7 @@ export default function Intro() {
                       <li className="mb-0 mt-0"> Computer Intelligence</li>
                       <li> Machine learning</li>
                     </ul>
-                  </p>
+                  {/* </p> */}
                 </div>
 
                 <div id="situation" className="col-md-6 col-12 exp mt-">

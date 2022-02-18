@@ -23,10 +23,10 @@ function Cards(props) {
           <img className="card-img-top" src={props.src}></img>{" "}
         </a>
         <div className="card-body ">
-          <e>
+          <em>
             {" "}
             <h1 className="card-title text-light"> {props.title}</h1>{" "}
-          </e>
+          </em>
           <p className="card-text text-light"> {props.txt}</p>
         </div>
       </div>
