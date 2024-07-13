@@ -11,14 +11,14 @@
     "react-dom": "^17.0.1",
     "react-pdf": "^5.3.0",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "4.0.1",
+    "react-scripts": "^4.0.1",
     "web-vitals": "^0.2.4",
     "yandex-images": "^1.0.7",
     "yandex-pictures": "^1.4.88"
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -b master -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
